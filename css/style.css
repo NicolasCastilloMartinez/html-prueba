@@ -1,0 +1,40 @@
+/*etiqueta normal = nada
+etiqueta universal = *
+etiqueta id = #
+etiqueta de clase = . */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: lightgrey;
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    border: 1px solid black;
+    background: white;
+}
+
+#header{
+    height: 145px;
+    background: #f0f0f0;
+    
+
+}
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+#logo img{
+    float: left;
+    height: 100px;
+}
+
